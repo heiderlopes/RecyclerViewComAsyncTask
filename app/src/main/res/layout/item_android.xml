@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <ImageView
+        android:layout_width="60dp"
+        android:scaleType="fitXY"
+        android:layout_height="40dp"
+        android:id="@+id/ivLogo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/label_nome"
+        android:id="@+id/tvNome"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/ivLogo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/label_api"
+        android:id="@+id/tvAPI"
+        android:layout_marginLeft="5dp"
+        android:layout_below="@id/tvNome"
+        android:layout_toRightOf="@id/ivLogo"
+        android:layout_toEndOf="@id/ivLogo"
+        android:textColor="#666"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/label_versao"
+        android:id="@+id/tvVersao"
+        android:layout_marginLeft="5dp"
+        android:layout_below="@id/tvAPI"
+        android:layout_toRightOf="@id/ivLogo"
+        android:textColor="#666"/>
+
+</RelativeLayout>

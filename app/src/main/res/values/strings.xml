@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">RecyclerViewComAsyncTask</string>
+    <string name="label_nome">Nome: </string>
+    <string name="label_api">API: </string>
+    <string name="label_versao">Versão: </string>
+</resources>
